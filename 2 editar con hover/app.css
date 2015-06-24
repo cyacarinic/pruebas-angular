@@ -1,0 +1,19 @@
+editable:hover span {
+	display: none;
+}
+ 
+editable span.editing {
+	display: none;
+}
+ 
+editable input {
+	display: none;
+}
+ 
+	editable:hover input {
+		display: block;
+	}
+ 
+editable input.editing {
+	display: block;
+}

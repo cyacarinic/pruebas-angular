@@ -1,0 +1,1 @@
+var variableApp = angular.module("directivaApp", []);
