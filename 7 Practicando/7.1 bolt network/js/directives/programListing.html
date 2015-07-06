@@ -1,0 +1,25 @@
+<div class="content">
+  <div class="row">
+
+    <div class="col-md-3" class="series_img">
+      <img ng-src="{{ listing.serie_img }}" class="img-responsive">
+    </div>
+
+    <div class="col-md-6">
+      <h1 class="series">{{ listing.serie }}</h1>
+      <h2 class="episode">{{ listing.episodio }}</h2>
+      <p class="description">{{ listing.descripcion }}</p>
+    </div>
+
+    <div class="col-md-3">
+      <ul class="list-group">
+        <li class="list-group-item"><span>Date:</span> {{ listing.fecha | date }} </li>
+        <li class="list-group-item"><span>On air:</span> Wednesday  </li>
+        <li class="list-group-item"><span>Time:</span> 9:00pm </li>
+        <li class="list-group-item"><span>Season:</span> {{ listing.temporada }} </li>
+        <li class="list-group-item"><span>Genre:</span> {{ listing.genero }} </li>
+      </ul>
+    </div>
+
+  </div>
+</div>
