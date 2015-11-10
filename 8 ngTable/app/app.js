@@ -6,7 +6,7 @@
                     .when('/', {
                         templateUrl: 'views/tabla.html',
                         controller: 'mainController',
-                        controllerAs: 'vm'
+                        controllerAs: 'mC'
                     });
             }]);
 })();
